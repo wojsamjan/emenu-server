@@ -19,6 +19,7 @@ class Menu(models.Model):
     """Menu object"""
     name = models.CharField(max_length=255, unique=True)
     description = models.TextField()
+    meals = models.ManyToManyField('Meal', related_name='menus')
     created_date = models.DateTimeField(auto_now_add=True)
     modified_date = models.DateTimeField(auto_now=True)
     

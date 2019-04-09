@@ -1,3 +1,5 @@
 venv_emenu
 src/emenu/__pycache__/
 .DS_Store
+src/menus/__pycache__/
+src/menus/migrations/__pycache__/
