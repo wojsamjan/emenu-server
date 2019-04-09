@@ -1,2 +1,3 @@
 venv_emenu
 src/emenu/__pycache__/
+.DS_Store
