@@ -33,3 +33,30 @@ class MealsApiTests(TestCase):
         serializer = MealSerializer(meals, many=True)
         self.assertEqual(res.status_code, status.HTTP_200_OK)
         self.assertEqual(res.data, serializer.data)
+        
+    def test_create_meal_successful(self):
+        """Test creating a new meal"""
+        payload = {
+            'name': 'Test meal name',
+            'description': 'Test meal description',
+            'price': 4.95,
+            'time_minutes': 45
+        }
+        self.client.post(MEALS_URL, payload)
+
+        exists = Meal.objects.filter(
+            name=payload['name']
+        ).exists()
+        self.assertTrue(exists)
+
+    def test_create_meal_invalid(self):
+        """Test creating a new meal with invalid payload"""
+        payload = {
+            'name': '',
+            'description': 'Test meal description',
+            'price': 4.95,
+            'time_minutes': 45
+        }
+        res = self.client.post(MEALS_URL, payload)
+
+        self.assertEqual(res.status_code, status.HTTP_400_BAD_REQUEST)
