@@ -5,7 +5,6 @@ from rest_framework import status
 from rest_framework.test import APIClient
 
 from menus.models import Meal
-
 from menus.serializers import MealSerializer
 
 
@@ -33,7 +32,7 @@ class MealsApiTests(TestCase):
         serializer = MealSerializer(meals, many=True)
         self.assertEqual(res.status_code, status.HTTP_200_OK)
         self.assertEqual(res.data, serializer.data)
-        
+
     def test_create_meal_successful(self):
         """Test creating a new meal"""
         payload = {

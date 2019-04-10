@@ -1,6 +1,6 @@
 from rest_framework import viewsets, mixins
 
-from menus.models import Meal
+from menus.models import Meal, Menu
 from menus import serializers
 
 
@@ -12,3 +12,9 @@ class MealViewSet(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.CreateM
     def perform_create(self, serializer):
         """Create a new meal"""
         serializer.save()
+        
+        
+class MenuViewSet(viewsets.ModelViewSet):
+    """Manage menus in the database"""
+    queryset = Menu.objects.all()
+    serializer_class = serializers.MenuSerializer
