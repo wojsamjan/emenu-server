@@ -6,6 +6,7 @@ from menus import views
 
 router = DefaultRouter()
 router.register('meals', views.MealViewSet)
+router.register('menus', views.MenuViewSet)
 
 app_name = 'menus'
 
