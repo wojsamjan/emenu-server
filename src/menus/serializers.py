@@ -24,3 +24,8 @@ class MenuSerializer(serializers.ModelSerializer):
         model = Menu
         fields = ('id', 'name', 'description', 'created_date', 'modified_date', 'meals')
         read_only_fields = ('id', 'created_date', 'modified_date')
+        
+        
+class MenuDetailSerializer(MenuSerializer):
+    """Serialize a menu detail"""
+    meals = MealSerializer(many=True, read_only=True)

@@ -18,3 +18,10 @@ class MenuViewSet(viewsets.ModelViewSet):
     """Manage menus in the database"""
     queryset = Menu.objects.all()
     serializer_class = serializers.MenuSerializer
+
+    def get_serializer_class(self):
+        """Return appropriate serializer class"""
+        if self.action == 'retrieve':
+            return serializers.MenuDetailSerializer
+    
+        return self.serializer_class
