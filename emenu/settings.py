@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'pko(l#&vpto!4@ohmk7to$2f1kxalk^0ynx$o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 CORS_ORIGIN_WHITELIST = (
     'localhost:3000/'
