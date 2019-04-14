@@ -1,0 +1,120 @@
+[
+    {
+        "model": "menus.meal",
+        "pk": 1,
+        "fields": {
+            "name": "Kurczak pieczony",
+            "description": "Cały kurczak pieczony na ruszcie",
+            "price": "12.95",
+            "time_minutes": 25,
+            "is_vegan": false,
+            "created_date": "2019-04-10T14:58:48.710577Z",
+            "modified_date": "2019-04-14T14:56:11.597931Z"
+        }
+    },
+    {
+        "model": "menus.meal",
+        "pk": 2,
+        "fields": {
+            "name": "Chrupiący boczek",
+            "description": "Delikatny, chrupiący marynowany boczek pieczony w całości [*cena za 100g.]",
+            "price": "4.95",
+            "time_minutes": 10,
+            "is_vegan": false,
+            "created_date": "2019-04-11T10:55:26.265899Z",
+            "modified_date": "2019-04-14T15:01:49.661495Z"
+        }
+    },
+    {
+        "model": "menus.meal",
+        "pk": 3,
+        "fields": {
+            "name": "Boczek wędzony",
+            "description": "Boczek wędzony po staropolsku [*cena za 100g.]",
+            "price": "5.99",
+            "time_minutes": 15,
+            "is_vegan": false,
+            "created_date": "2019-04-11T10:55:52.893169Z",
+            "modified_date": "2019-04-14T15:01:55.143326Z"
+        }
+    },
+    {
+        "model": "menus.meal",
+        "pk": 4,
+        "fields": {
+            "name": "Jajecznica na boczku",
+            "description": "Jajecznica z 3 jaj na boczku i maśle, podawana ze szczypiorkiem i chlebem",
+            "price": "9.95",
+            "time_minutes": 25,
+            "is_vegan": false,
+            "created_date": "2019-04-12T19:22:18.488355Z",
+            "modified_date": "2019-04-14T15:02:52.067861Z"
+        }
+
+    },
+    {
+        "model": "menus.meal",
+        "pk": 5,
+        "fields": {
+            "name": "Zestaw ze schabowym",
+            "description": "Zestaw obiadowy ze schabowym, ziemniaczkami i surówką dnia",
+            "price": "18.95",
+            "time_minutes": 35,
+            "is_vegan": false,
+            "created_date": "2019-04-12T19:22:49.860947Z",
+            "modified_date": "2019-04-14T15:03:34.484870Z"
+        }
+    },
+    {
+        "model": "menus.meal",
+        "pk": 6,
+        "fields": {
+            "name": "Musli na wodzie",
+            "description": "Musli zalane wrzątkiem",
+            "price": "3.95",
+            "time_minutes": 10,
+            "is_vegan": true,
+            "created_date": "2019-04-12T20:57:00.628547Z",
+            "modified_date": "2019-04-14T15:04:09.479625Z"
+        }
+    },
+    {
+        "model": "menus.meal",
+        "pk": 7,
+        "fields": {
+            "name": "Sałata na zielono",
+            "description": "Mix sałat",
+            "price": "6.95",
+            "time_minutes": 15,
+            "is_vegan": true,
+            "created_date": "2019-04-12T20:57:41.203822Z",
+            "modified_date": "2019-04-14T15:04:36.960578Z"
+        }
+    },
+    {
+        "model": "menus.meal",
+        "pk": 8,
+        "fields": {
+            "name": "Makrela wędzona",
+            "description": "Makrela wędzona [*cena za 100g.]",
+            "price": "3.45",
+            "time_minutes": 15,
+            "is_vegan": false,
+            "created_date": "2019-04-14T15:12:45.502279Z",
+            "modified_date": "2019-04-14T15:12:45.502305Z"
+        }
+    },
+    {
+        "model": "menus.meal",
+        "pk": 9,
+        "fields": {
+            "name": "Herbata zielona",
+            "description": "Parzona herbata zielona",
+            "price": "4.95",
+            "time_minutes": 10,
+            "is_vegan": true,
+            "created_date": "2019-04-14T15:15:48.004897Z",
+            "modified_date": "2019-04-14T15:15:48.004953Z"
+        }
+    }
+]
