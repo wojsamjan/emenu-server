@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+SECRET_KEY = os.environ.get('SECRET_KEY', 'pko(l#&vpto!4@ohmk7to$2f1kxalk^0ynx$od*!nshrtu!yq$')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -92,12 +92,9 @@ WSGI_APPLICATION = 'emenu.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('DB_NAME', ''),
-        'USER': os.environ.get('DB_USER', ''),
+        'NAME': os.environ.get('DB_NAME', 'emenudb'),
+        'USER': os.environ.get('DB_USER', 'emenu'),
         'PASSWORD': os.environ.get('DB_PASS', ''),
-        # 'NAME': 'emenudb',
-        # 'USER': 'emenu',
-        # 'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '',
     }
