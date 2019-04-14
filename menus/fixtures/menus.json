@@ -1,0 +1,168 @@
+[
+    {
+        "model": "menus.menu",
+        "pk": 1,
+        "fields": {
+            "name": "Kuchnia Staropolska",
+            "description": "Dania z klasycznej kuchni staropolskiej",
+            "created_date": "2019-04-10T22:14:51.958041Z",
+            "modified_date": "2019-04-14T15:07:47.015363Z",
+            "meals": [
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "menus.menu",
+        "pk": 2,
+        "fields": {
+            "name": "Król Boczek",
+            "description": "Tylko dania z boczkiem",
+            "created_date": "2019-04-10T22:15:16.290892Z",
+            "modified_date": "2019-04-14T15:08:23.337823Z",
+            "meals": [
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "menus.menu",
+        "pk": 4,
+        "fields": {
+            "name": "Obiady",
+            "description": "Menu obiadowe",
+            "created_date": "2019-04-10T23:20:37.820059Z",
+            "modified_date": "2019-04-14T15:09:21.494190Z",
+            "meals": [
+                1,
+                5
+            ]
+        }
+    },
+    {
+        "model": "menus.menu",
+        "pk": 6,
+        "fields": {
+            "name": "Zielono Mi",
+            "description": "Menu sałatkowe",
+            "created_date": "2019-04-10T23:20:58.252985Z",
+            "modified_date": "2019-04-14T15:10:36.406375Z",
+            "meals": [
+                7
+            ]
+        }
+    },
+    {
+        "model": "menus.menu",
+        "pk": 7,
+        "fields": {
+            "name": "Mała Rybka",
+            "description": "Dania rybne",
+            "created_date": "2019-04-12T13:12:58.619525Z",
+            "modified_date": "2019-04-14T15:14:30.848163Z",
+            "meals": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "menus.menu",
+        "pk": 8,
+        "fields": {
+            "name": "Polska Wędzarnia",
+            "description": "Dania wędzone",
+            "created_date": "2019-04-12T13:13:36.810977Z",
+            "modified_date": "2019-04-14T15:14:51.642918Z",
+            "meals": [
+                3,
+                8
+            ]
+        }
+    },
+    {
+        "model": "menus.menu",
+        "pk": 5,
+        "fields": {
+            "name": "Vegan Party",
+            "description": "Dania wegańskie",
+            "created_date": "2019-04-10T23:20:47.145271Z",
+            "modified_date": "2019-04-14T15:16:50.303007Z",
+            "meals": [
+                6,
+                7,
+                9
+            ]
+        }
+    },
+    {
+        "model": "menus.menu",
+        "pk": 9,
+        "fields": {
+            "name": "Herbaciarnia",
+            "description": "Herbaty",
+            "created_date": "2019-04-12T20:58:03.609742Z",
+            "modified_date": "2019-04-14T15:33:12.597408Z",
+            "meals": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "menus.menu",
+        "pk": 10,
+        "fields": {
+            "name": "Same Jaja",
+            "description": "Dania jajeczne",
+            "created_date": "2019-04-12T20:58:26.626505Z",
+            "modified_date": "2019-04-14T15:37:57.353839Z",
+            "meals": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "menus.menu",
+        "pk": 11,
+        "fields": {
+            "name": "Mięsna Wyżerka",
+            "description": "Dania mięsne",
+            "created_date": "2019-04-12T20:58:50.303181Z",
+            "modified_date": "2019-04-14T15:38:05.557776Z",
+            "meals": [
+                1,
+                2,
+                3,
+                5
+            ]
+        }
+    },
+    {
+        "model": "menus.menu",
+        "pk": 12,
+        "fields": {
+            "name": "Puste Menu",
+            "description": "Puste menu",
+            "created_date": "2019-04-13T11:21:37.618517Z",
+            "modified_date": "2019-04-14T15:38:13.558058Z",
+            "meals": []
+        }
+    },
+    {
+        "model": "menus.menu",
+        "pk": 3,
+        "fields": {
+            "name": "Pyszne Śniadania",
+            "description": "Menu śniadaniowe",
+            "created_date": "2019-04-10T23:20:29.205467Z",
+            "modified_date": "2019-04-14T15:57:15.796538Z",
+            "meals": [
+                4,
+                6,
+                7
+            ]
+        }
+    }
+]
