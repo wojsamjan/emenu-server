@@ -14,7 +14,7 @@ class MealViewSet(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.CreateM
         serializer.save()
         
         
-class MenuViewSet(viewsets.ModelViewSet):
+class MenuViewSet(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.RetrieveModelMixin, mixins.CreateModelMixin):
     """Manage menus in the database"""
     queryset = Menu.objects.all()
     serializer_class = serializers.MenuSerializer
