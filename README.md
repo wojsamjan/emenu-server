@@ -57,6 +57,8 @@ or
 ## Description
 SECRET_KEY and DB credentials are set separately for both development and production environments
 
+[React App for this API](https://github.com/wojsamjan/emenu-client)
+
 ## Implementation
 
 This project is implemented using Django REST Framework, PostgreSQL
