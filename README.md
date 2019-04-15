@@ -54,7 +54,11 @@ or
 ```coverage html```
 
 
-# Running project
+## Test coverage
+[Coverage result](https://github.com/wojsamjan/emenu-server/blob/master/eMenu_coverage.png)
+
+
+## Running project
 ```
 python manage.py runserver --settings=emenu.local_settings
 ```
