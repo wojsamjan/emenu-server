@@ -55,7 +55,7 @@ or
 
 
 ## Description
-
+SECRET_KEY and DB credentials are set separately for both development and production environments
 
 ## Implementation
 
