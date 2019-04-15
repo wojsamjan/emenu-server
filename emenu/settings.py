@@ -32,7 +32,8 @@ DEBUG = False
 ALLOWED_HOSTS = ['*']
 
 CORS_ORIGIN_WHITELIST = (
-    'localhost:3000/'
+    'localhost:3000/',
+    'https://wojsamjan.github.io/emenu-client/'
 )
 
 
