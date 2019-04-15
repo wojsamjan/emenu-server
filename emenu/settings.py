@@ -31,13 +31,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
-CORS_ORIGIN_WHITELIST = (
-    'localhost:3000/',
-    'github.io/',
-    'github.io/emenu-client/',
-    'wojsamjan.github.io/',
-    'wojsamjan.github.io/emenu-client/'
-)
+CORS_ORIGIN_ALLOW_ALL = True
 
 
 # Application definition
