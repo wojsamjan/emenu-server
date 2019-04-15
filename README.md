@@ -54,6 +54,12 @@ or
 ```coverage html```
 
 
+# Running project
+```
+python manage.py runserver --settings=emenu.local_settings
+```
+
+
 ## Description
 SECRET_KEY and DB credentials are set separately for both development and production environments
 
