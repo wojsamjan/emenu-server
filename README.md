@@ -2,18 +2,19 @@
 
 ## Requirements
 Python, PIP, virtualenv
+
 [Install PostgreSQL](https://tutorial-extensions.djangogirls.org/en/optional_postgresql_installation/)
 
-Run PostgreSQL
+Run PostgreSQL:
 ```psql```
 
-Create emenu user
+Create emenu user:
 ```CREATE USER emenu;```
 
-Set privilege to create db (for running tests)
+Set privilege to create db (for running tests):
 ```ALTER USER emenu CREATEDB;```
 
-Create emenudb by our user
+Create emenudb by our user:
 ```CREATE DATABASE emenudb OWNER emenu;```
 
 
