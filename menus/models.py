@@ -1,4 +1,15 @@
+import uuid
+import os
+
 from django.db import models
+
+
+def meal_image_file_path(instance, filename):
+    """Generate file path for new meal image"""
+    ext = filename.split('.')[-1]
+    filename = f'{uuid.uuid4()}.{ext}'
+
+    return os.path.join('uploads/meal/', filename)
 
 
 class Meal(models.Model):
@@ -10,6 +21,7 @@ class Meal(models.Model):
     is_vegan = models.BooleanField(default=False)
     created_date = models.DateTimeField(auto_now_add=True)
     modified_date = models.DateTimeField(auto_now=True)
+    image = models.ImageField(null=True, upload_to=meal_image_file_path)
 
     def __str__(self):
         return self.name

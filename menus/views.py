@@ -4,7 +4,7 @@ from menus.models import Meal, Menu
 from menus import serializers
 
 
-class MealViewSet(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.CreateModelMixin):
+class MealViewSet(viewsets.GenericViewSet, mixins.ListModelMixin, mixins.RetrieveModelMixin, mixins.CreateModelMixin):
     """Manage meals in the database"""
     queryset = Meal.objects.all()
     serializer_class = serializers.MealSerializer

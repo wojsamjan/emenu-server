@@ -8,8 +8,10 @@ class MealSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Meal
-        fields = ('id', 'name', 'description', 'price', 'time_minutes', 'is_vegan', 'created_date', 'modified_date')
-        read_only_fields = ('id', 'created_date', 'modified_date')
+        fields = (
+            'id', 'name', 'description', 'price', 'time_minutes', 'is_vegan', 'created_date', 'modified_date', 'image'
+        )
+        read_only_fields = ('id', 'created_date', 'modified_date', 'image')
         
         
 class MenuSerializer(serializers.ModelSerializer):
