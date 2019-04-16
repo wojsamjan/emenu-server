@@ -143,8 +143,11 @@ USE_TZ = True
 
 # 127.0.0.1:8000/static/
 STATIC_URL = '/static/'
+# 127.0.0.1:8000/media/
+MEDIA_URL = '/media/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
