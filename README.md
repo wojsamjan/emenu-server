@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ## Migrations and seeding DB
 ```
-python manage.py migrate
+python manage.py migrate --settings=emenu.local_settings
 python manage.py loaddata meals
 python manage.py loaddata menus
 ```
